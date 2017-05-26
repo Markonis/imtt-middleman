@@ -1,6 +1,6 @@
 var express = require('express');
 var google = require('./services/google/google.js');
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser');
 
 function googleRequestHandler(actionName) {
   var action = google[actionName];
